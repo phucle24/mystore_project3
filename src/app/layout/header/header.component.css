@@ -1,0 +1,50 @@
+.header {
+  background-color: rgb(255, 123, 0);
+  height: 75px;
+  position: sticky;
+  color: #fff;
+}
+
+.header-title {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 500;
+  color: #fff;
+}
+
+.header-menu {
+  text-align: center;
+  margin-right: 10px;
+}
+
+.header a:first-child {
+  text-align: center;
+  padding: 0 10px;
+  margin-right: 5px;
+  color: #fff;
+  text-decoration: none;
+  border-right: 1px solid #fff;
+}
+
+.header a:nth-child(2) {
+  text-align: center;
+  padding: 10px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.header a:nth-child(2) i {
+  font-size: 15px;
+}
+
+.header a:nth-child(2) #carId {
+  color: white;
+  padding: 1px 7px;
+  border-radius: 50%;
+  background: black;
+  font-size: 13px;
+  position: absolute;
+  font-weight: bold;
+  bottom: 15px;
+  left: 55%;
+}
